@@ -34,25 +34,25 @@ nav a:hover {
 }
 
 .book {
-    background-color: #fcfbfb; 
+    background-color: gray; 
 }
 .join {
-    background-color:rgba(20,30,13, .7);
+    background-color:gray;
 }
 .book:hover {
-    background-color: black;
+    background-color: gray;
 }
 
 .join:hover {
-    background-color: #fcfbfb; 
+    background-color: gray; 
 }
 #background {
-    background-color:rgba(20,30,13, .7);
+    background-color:gray;
 }
 .msg {
-    background-color: black;
+    background-color: gray;
 }
 
 footer {
-    background-color: #fcfbfb; 
+    background-color: gray; 
 }
