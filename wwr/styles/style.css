@@ -18,3 +18,41 @@ nav a {
 .main section {
     text-align: center;
 }
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:rgba(20,30,13, .7);
+}
+nav a:hover {
+    background-color: black;
+}
+
+.book {
+    background-color: #fcfbfb; 
+}
+.join {
+    background-color:rgba(20,30,13, .7);
+}
+.book:hover {
+    background-color: black;
+}
+
+.join:hover {
+    background-color: #fcfbfb; 
+}
+#background {
+    background-color:rgba(20,30,13, .7);
+}
+.msg {
+    background-color: black;
+}
+
+footer {
+    background-color: #fcfbfb; 
+}
