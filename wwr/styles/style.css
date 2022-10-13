@@ -7,23 +7,7 @@
 nav a {
     text-align: center;
     background-color: black;
-}
-
-
-#hero-msg h1 {
-  text-align: center;
-}
-
-#hero-msg h4 {
-    text-align: center;
-}
-
-.button-box {
-    text-align: center;
-}
-
-.main section {
-    text-align: center;
+    text-decoration: none;
 }
 
 #background {
@@ -39,9 +23,11 @@ header {
 
 .book {
     background-color: gray; 
+    text-decoration: none;
 }
 .join {
     background-color:gray;
+    text-decoration: none;
 }
 
 #background {
@@ -53,7 +39,17 @@ header {
 }
 
 footer {
-    background-color: gray; 
+    background-color: gray;
+    text-decoration: none; 
+    
+}
+
+footer p {
+    font-size: 1.2em;
+}
+ 
+footer p a:hover{
+    text-decoration: underline;
 }
 
 .logo {
