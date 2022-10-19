@@ -116,3 +116,10 @@ h2 {
 .rapidscard{
     margin: 200px 0;
 }
+
+.card-img {
+    border: 10px solid gray;
+}
+main section img {
+    box-sizing: border-box;
+}
