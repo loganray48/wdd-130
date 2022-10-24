@@ -1,0 +1,29 @@
+.cow {
+    display: grid;
+    grid-template-columns: repeat(6 1fr);
+    grid-template-rows: repeat(6 1fr);
+    height: 400px;
+    width: 800px;
+}
+.l-leg {
+    background-color: #5E4B35;
+    width: 100%;
+    height: 200px;
+    grid-column: 1/2;
+    
+}
+.r-leg{
+    background-color: #5E4B35;
+    width: 100%;
+    grid-column: 4/5;
+    
+}
+
+.body{
+    background-color: #5E4B35;
+grid-column: 1/5;
+}
+.circle{
+    background-color: #5E4B35;
+    grid-column: 5/7;
+}
