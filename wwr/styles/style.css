@@ -119,3 +119,33 @@ h2 {
 main section img {
     box-sizing: border-box;
 }
+
+/* Freqently Asked Questions CSS */
+
+#boat-img{
+    width: 100%;
+}
+.faqs {
+    position: relative;
+    text-align: center;
+    color: white
+  }
+
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .boat-txt{
+    font-size: 80px;
+  }
+
+h5 {
+    font-size: 30px;
+  }
+
+  .question{
+    justify-content: left;
+  }
