@@ -157,3 +157,10 @@ h5 {
     padding-right: 60px;
     text-align: left;
   }
+
+  /* styleing for Faqs wireframe picture */
+
+  #wireframe-image{
+    width: 100;
+   text-align: center;
+  }
