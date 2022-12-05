@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onset Health Contact Page</title>
+    <link rel="stylesheet" href="styles/onset_styles.css">
+</head>
+<body>
+<!-- Header Section -->
+<header class="site-header">
+    <div class="site-identity">
+      <a href="./onset.html"><img src="./pictues/logo_no_background.png" alt="Site Name" /></a>
+      <h1><a href="./onset.html">Onset Health</a></h1>
+    </div>  
+    <nav class="site-navigation">
+      <ul class="nav">
+        <li><a href="#">Get Fit</a></li> 
+        <li><a href="#">Products We Use</a></li> 
+        <li><a href="#">Testimonies</a></li> 
+        <li><a href="./onset_contact.html">Contact Us</a></li> 
+      </ul>
+    </nav>
+  </header>
+<!-- Personal trainer picture with text -->
+<div>
+  <img class= 'gym-trainer' src="./pictues/gym_trainer2.jpg" alt="Gym Trainer">
+  <div class="centered">Lets <br>Talk<br> Fitness</div>
+</div>
+
+<div class="contact_area">
+    <h1>Contact Us</h1>
+        <div>
+        <p>Leave us a message and we'll get back shortly</p>
+        </div>
+            <div class="container">
+            <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your Email..">
+
+                <label for="email">Phone Number</label>
+                <input type="text" id="phone" name="phone" placeholder="Your Phone Number..">
+
+                <label for="help">How We Can Help You</label>
+                <textarea id="help" name="help" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+            </div>
+</div>
+  
+
+</body>
+</html>
