@@ -58,11 +58,53 @@ body {
 
 /* End Header Styles */
 
+/* Footer Styles */
+
+footer {
+  background-color:  #646E78;
+  text-decoration: none; 
+  padding: 25px 50px;
+  margin-top: 0px;
+}
+
+.social img{
+  width: 80px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.follow{
+  font-size: 2em;
+  text-align: center;
+}
+
+.footer_contact{
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+/* Footer Styles End */
+/* Home Page Adjustments */
 .gym-image{
   width: 70%;
   padding-left: 15%;
 }
 
+.home_info{
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#who{
+  font-size: 5em;
+}
+
+#mission_statement{
+  font-size: 2.2em;
+}
 
 /* Gym Contact Page */
 
@@ -85,6 +127,14 @@ body {
 .contact_area{
   padding-left: 10%;
   padding-right: 10%;
+}
+
+h1{
+  font-size: 2.4em;
+}
+
+#message{
+  font-size: 1.4em;
 }
 
 input[type=text], select, textarea {
