@@ -91,6 +91,13 @@ footer {
   padding-bottom: 1em;
 }
 
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 40%;
+}
+
 /* Footer Styles End */
 
 /* Home Page Adjustments */
