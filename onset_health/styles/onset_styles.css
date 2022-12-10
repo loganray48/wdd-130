@@ -182,3 +182,32 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+/* Products Page Css */
+
+.pro_main{
+  display: grid;
+  grid-template-columns: 15% 1fr 1fr 15%;
+  grid-template-rows: repeat(8fr);
+}
+
+
+.buckedup{
+  grid-column: 2/3;
+  grid-row: 2/5;
+}
+
+.buck_word{
+  grid-column: 3/4;
+  grid-row: 2/5;
+}
+
+.whey{
+  grid-column: 2/3;
+  grid-row: 6/8
+}
+
+.whey_word{
+  grid-column: 3/4;
+  grid-row: 6/8;
+}
