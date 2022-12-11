@@ -183,15 +183,11 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-/* Products Page Css */
-/* .pro_main{
-  display:block
-} */
 
 .pro_div{
   display: grid;
-  grid-template-columns: 15% 30% 40% 15%;
-  grid-template-rows: 10% 30% 10% 20% 30%
+  grid-template-columns: 15% 30% 35% 20%;
+  grid-template-rows: 5% 30% 0% 20% 30% 
 }
 
 .buck_pic{
@@ -203,14 +199,33 @@ input[type=submit]:hover {
 .buck_word{
   grid-column: 3/4;
   grid-row: 2/3;
+  padding-top: 20px;
+  font-size: 1.3em;
+  font-family: Arial;
 }
 
 .whey_pic{
   grid-column: 2/3;
   grid-row: 5/6;
+  padding-bottom: 240px;
 }
 
 .whey_word{
   grid-column: 3/4;
   grid-row: 5/6;
+  padding-top: 30px;
+  font-size: 1.3em;
+  font-family: Arial;
+}
+
+.amazon{
+  font-size: 1em;
+  background-color:  #646E78; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
 }
