@@ -184,30 +184,33 @@ input[type=submit]:hover {
 }
 
 /* Products Page Css */
+/* .pro_main{
+  display:block
+} */
 
-.pro_main{
+.pro_div{
   display: grid;
-  grid-template-columns: 15% 1fr 1fr 15%;
-  grid-template-rows: repeat(8fr);
+  grid-template-columns: 15% 30% 40% 15%;
+  grid-template-rows: 10% 30% 10% 20% 30%
 }
 
-
-.buckedup{
+.buck_pic{
   grid-column: 2/3;
-  grid-row: 2/5;
+  grid-row: 2/3;
+  height: 500px;
 }
 
 .buck_word{
   grid-column: 3/4;
-  grid-row: 2/5;
+  grid-row: 2/3;
 }
 
-.whey{
+.whey_pic{
   grid-column: 2/3;
-  grid-row: 6/8
+  grid-row: 5/6;
 }
 
 .whey_word{
   grid-column: 3/4;
-  grid-row: 6/8;
+  grid-row: 5/6;
 }
