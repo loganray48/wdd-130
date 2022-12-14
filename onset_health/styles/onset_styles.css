@@ -5,6 +5,11 @@ body {
     font-family: 'Playfair Display', 'Helvetica', 'Quicksand';
     margin: 0;
   }
+
+  .personal_website{
+    font-size: 2.2em;
+    color: black;
+  }
  /* Header Styles  */
   header{
     background-color: #646E78 ;
