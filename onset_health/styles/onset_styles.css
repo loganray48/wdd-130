@@ -2,101 +2,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 body {
-    font-family: 'Playfair Display', 'Helvetica', 'Quicksand';
-    margin: 0;
-  }
+  font-family: 'Playfair Display', 'Helvetica', 'Quicksand';
+  margin: 0;
+}
 
-  .personal_website{
-    font-size: 2.2em;
-    color: black;
-  }
- /* Header Styles  */
-  header{
-    background-color: #646E78 ;
-    /* background-color: #4B5358; */
-  }
+.personal_website {
+  font-size: 2.2em;
+  color: black;
+}
 
-  a {
-    text-decoration: none;
-    color: black;
-    /* color: white; */
-  }
+/* Header Styles  */
+header {
+  background-color: #646E78;
+  /* background-color: #4B5358; */
+}
 
-  .site-header { 
-    border-bottom: 1px solid #ccc;
-    padding: .5em 1em;
-  }
-  
-  .site-header::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  .site-identity {
-    float: left;
-  }
+a {
+  text-decoration: none;
+  color: black;
+  /* color: white; */
+}
 
-  .site-identity h1 {
-    font-size: 2.5em;
-    margin: .7em 0 .3em 0;
-    display: inline-block;
-    padding-top: 5px;
-  }
-  
-  .site-identity img {
-    max-width: 100px;
-    float: left;
-    margin: 0 10px 0 0;
-  }
-  
-  .site-navigation {
-    float: right;
-    font-size: 30px;
-  }
-  
-  .site-navigation ul, li {
-    margin: 0; 
-    padding: 0;
-  }
-  
-  .site-navigation li {
-    display: inline-block;
-    margin: 1.4em 1em 1em 1em;
-  }
+.site-header {
+  border-bottom: 1px solid #ccc;
+  padding: .5em 1em;
+}
+
+.site-header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.site-identity {
+  float: left;
+}
+
+.site-identity h1 {
+  font-size: 2.5em;
+  margin: .7em 0 .3em 0;
+  display: inline-block;
+  padding-top: 5px;
+}
+
+.site-identity img {
+  max-width: 100px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.site-navigation {
+  float: right;
+  font-size: 30px;
+}
+
+.site-navigation ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.site-navigation li {
+  display: inline-block;
+  margin: 1.4em 1em 1em 1em;
+}
 
 /* End Header Styles */
 
 /* Footer Styles */
 
 footer {
-  background-color:  #646E78;
-  text-decoration: none; 
+  background-color: #646E78;
+  text-decoration: none;
   padding: 25px 50px;
   margin-top: 0px;
 }
 
-.social img{
+.social img {
   width: 80px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
 }
 
-.follow{
+.follow {
   font-family: Helvetica;
   font-size: 2em;
   text-align: center;
 }
 
-.footer_contact{
+.footer_contact {
   font-family: Helvetica;
   font-size: 2em;
   text-align: center;
   padding-bottom: 1em;
 }
 
-.social{
+.social {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -106,29 +108,29 @@ footer {
 /* Footer Styles End */
 
 /* Home Page Adjustments */
-.gym-image{
+.gym-image {
   width: 70%;
   padding-left: 15%;
 }
 
-.home_info{
+.home_info {
   font-family: Helvetica;
   text-align: center;
   padding-left: 15%;
   padding-right: 15%;
 }
 
-#who{
+#who {
   font-size: 5em;
 }
 
-#mission_statement{
+#mission_statement {
   font-size: 2.2em;
 }
 
 /* Gym Contact Page */
 
-.gym-trainer{
+.gym-trainer {
   width: 80%;
   padding-left: 10%;
 }
@@ -144,29 +146,31 @@ footer {
 }
 
 /* Contact Box Sections */
-.contact_area{
+.contact_area {
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 5%;
 }
 
-h1{
+h1 {
   font-size: 2.4em;
 }
 
-#message{
+#message {
   font-size: 1.4em;
 }
 
-input[type=text], select, textarea {
-  width: 100%; 
-  padding: 12px; 
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical 
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
 }
 
 input[type=submit] {
@@ -189,19 +193,19 @@ input[type=submit]:hover {
 }
 
 
-.pro_div{
+.pro_div {
   display: grid;
   grid-template-columns: 15% 30% 35% 20%;
-  grid-template-rows: 5% 30% 0% 20% 30% 
+  grid-template-rows: 5% 30% 0% 20% 30%
 }
 
-.buck_pic{
+.buck_pic {
   grid-column: 2/3;
   grid-row: 2/3;
   height: 500px;
 }
 
-.buck_word{
+.buck_word {
   grid-column: 3/4;
   grid-row: 2/3;
   padding-top: 20px;
@@ -209,13 +213,13 @@ input[type=submit]:hover {
   font-family: Arial;
 }
 
-.whey_pic{
+.whey_pic {
   grid-column: 2/3;
   grid-row: 5/6;
   padding-bottom: 240px;
 }
 
-.whey_word{
+.whey_word {
   grid-column: 3/4;
   grid-row: 5/6;
   padding-top: 30px;
@@ -223,9 +227,9 @@ input[type=submit]:hover {
   font-family: Arial;
 }
 
-.amazon{
+.amazon {
   font-size: 1em;
-  background-color:  #646E78; 
+  background-color: #646E78;
   border: none;
   color: black;
   padding: 15px 32px;
@@ -233,4 +237,60 @@ input[type=submit]:hover {
   text-decoration: none;
   display: inline-block;
   border-radius: 12px;
+}
+
+/* BMI Calculator Sections */
+.calc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#calculator {
+  width: 400px;
+  margin: 0 auto;
+}
+
+button {
+  width: 160px;
+  height: 80px;
+  font-size: 24px;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+form {
+  display: inline-block;
+  margin-top: 0px;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 50px;
+  font-size: 24px;
 }

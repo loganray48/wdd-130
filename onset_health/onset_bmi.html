@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onset Health Get Fit Page</title>
+    <link rel="stylesheet" href="styles/onset_styles.css">
+    <script src="./bmi.js"></script>
+
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="site-header">
+        <div class="site-identity">
+            <a href="./onset.html"><img src="./pictues/logo_no_background.png" alt="Site Name" /></a>
+            <h1><a href="./onset.html">Onset Health</a></h1>
+        </div>
+        <nav class="site-navigation">
+            <ul class="nav">
+                <li><a href="./onset_bmi.html">Get Fit</a></li>
+                <li><a href="./products.html">Products We Use</a></li>
+                <li><a href="#">Testimonies</a></li>
+                <li><a href="./onset_contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- BMI Calculator Section -->
+    <div class="calc">
+        <h1>BMI Calculator</h1>
+        <form>
+            <label for="height">Height (inches):</label>
+            <input type="number" id="height" name="height" min="0" step="1" required>
+
+            <label for="weight">Weight (pounds):</label>
+            <input type="number" id="weight" name="weight" min="0" step="0.1" required>
+
+            <button type="button" onclick="calculateBMI()">Calculate BMI</button>
+        </form>
+
+        <p class="result" id="result"></p>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+        <div>
+            <h1 class="follow">Follow Us On Social Media</h1>
+        </div>
+
+        <div class="footer_contact">
+            <a href="./onset_contact.html">Contact Us</a>
+        </div>
+
+        <div class="social">
+            <a target="_blank" href="https://tiktok.com">
+                <img src="./pictues/tiktok_logo.png" alt="tiktok icon">
+            </a>
+
+            <a target="_blank" href="https://instagram.com/onset.health?igshid=YmMyMTA2M2Y=">
+                <img src="./pictues/Instagram_logo.png" alt="instagram icon">
+            </a>
+
+            <a target="_blank" href="https://twitter.com">
+                <img src="./pictues/youtube_logo.png" alt="youtube logo">
+            </a>
+
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
