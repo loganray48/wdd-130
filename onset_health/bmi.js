@@ -22,3 +22,4 @@ function calculateBMI() {
         resultElement.textContent += " You are obese BMI range.";
     }
 }
+
